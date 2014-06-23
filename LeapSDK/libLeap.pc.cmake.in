@@ -1,0 +1,14 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/LeapSDK
+includedir=${prefix}/include/LeapSDK
+
+Name: libLeap
+Description: C Configuration File Library
+Version: 1.2.0
+URL: https://developer.leapmotion.com/v1
+Requires:
+Conflicts:
+Libs: -L${libdir} -lLeap
+Libs.private:  
+Cflags: -I${includedir}

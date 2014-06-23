@@ -5,7 +5,7 @@ This repo is for Fedora development purpose.
 
 New features:
 
-  Added cmake to deploy library.
+  Added cmake to deploy development library. Run sh LeapSDK/install.sh to deploy headers and library.
 
   Added pkgconfig file for development.
 
